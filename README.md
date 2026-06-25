@@ -130,3 +130,8 @@ print(p.probabilidades())
 - Ventaja del vibecoding: permite iterar muy rápido tanto en UI como en lógica de juego, probando ideas sin escribir todo desde cero.
 - Límite del vibecoding: que el código compile y las pruebas existentes pasen no garantiza que cumpla exactamente lo que se pidió; hay que validar con casos concretos (como correr `probabilidades()` con un escenario extremo) y no confiar solo en que "funciona".
 - Comprendo bien el ciclo principal en `main.py`, el flujo del menú en `menu.py`, y la lógica de disparos y animación en `juego.py`. Lo que necesito reforzar es el diseño de la lógica de pesos en `portero.py` (cómo implementar correctamente un piso mínimo de probabilidad redistribuyendo el resto) y el manejo de superficies con transparencia (`pygame.SRCALPHA`) que usa `ui.py` para los paneles y el efecto de luces del estadio.
+
+<img width="1267" height="890" alt="image" src="https://github.com/user-attachments/assets/bd77a553-29fc-4f4a-92a8-ac8da1e28cc5" />
+<img width="1263" height="893" alt="image" src="https://github.com/user-attachments/assets/0f0fa642-5a4e-4252-8d08-b311a584bc8b" />
+
+
